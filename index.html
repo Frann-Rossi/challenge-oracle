@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Alura Challenge Rossi Franco</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <main class="contenedor box">
+    <div class="contenedor logo">
+      <img class="logo-imagen" src="img/Logo.png" alt="imagen logo">
+    </div>
+
+    <div class="contenedor info">
+      <label for="encriptado">Encriptado</label>
+      <textarea class="info-texto" id="encriptado" name="encriptado" placeholder="Ingrese el texto aqui"></textarea>
+    </div>
+
+    <div class="btn">
+      <div class="btn-texto">
+        <img src="img/Vector.svg" alt="">
+        <p>Solo letras minúsculas y sin acentos</p>
+      </div>
+      <div class="btn-encriptado">
+        <input class="input" type="submit" id="btnEncriptar" value="Encriptar">
+        <input class="input" type="submit" id="btnDesencriptar" value="Desencriptar">
+      </div>
+    </div>
+
+
+    <div class="contenedor impreso">
+      <p> Ningún mensaje fue encontrado</p>
+      <p>Ingresa el texto que desees encriptar o desencriptar.</p>
+    </div>
+
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+
+</html>
