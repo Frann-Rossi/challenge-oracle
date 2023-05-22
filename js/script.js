@@ -1,7 +1,7 @@
 const encriptado = document.querySelector("#encriptado");
 const btnEncriptar = document.querySelector("#btnEncriptar");
 const btnDesencriptar = document.querySelector("#btnDesencriptar");
-const contenedorImpreso = document.querySelector(".contenedor.impreso");
+const contenedorImpreso = document.querySelector("#impreso");
 
 btnEncriptar.addEventListener("click", () => {
 	const contenido = encriptado.value;
